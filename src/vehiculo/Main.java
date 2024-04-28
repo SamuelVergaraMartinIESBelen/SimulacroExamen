@@ -2,11 +2,16 @@
 package vehiculo;
 
 /**
- *
- * @author 
+ * @author Samuel Vergara Martín
+ * @version 1.0
+ * @since 28-04-2024
  */
 public class Main {
     
+    /**
+     * Inicio del programa
+     * @param args Parámetros opcionales que le puedes pasar al programa
+     */
       public static void main(String[] args) {
         VehiculoSVM2324 miVehiculoSVM2324;
         int stockActual;
@@ -17,6 +22,11 @@ public class Main {
         System.out.println("El stock actual es "+ stockActual );
     }
 
+      /**
+       * Función que gestiona las compras y ventas de vehiculos
+       * @param miVehiculoSVM2324 Objeto de la clase vehiculo
+       * @param cantidad Cantidad de vehiculos a comprar/vender
+       */
     static void operativaVehiculosSVM2324(VehiculoSVM2324 miVehiculoSVM2324, Integer cantidad) {
         try
         {
